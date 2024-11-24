@@ -1,2 +1,2 @@
-# zaka233glitch
+# Project
 Game quiz project
