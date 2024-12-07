@@ -1,11 +1,11 @@
 .h11 {
   text-align: center;
   animation: color-change 10s infinite;
-animation-direction: alternate;
-animation-fill-mode: forwards;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
   color: rgb(255, 0, 0);
-  animation: color-change 10s infinite;
 }
+
 @keyframes color-change {
   0% {
     color: rgb(255, 0, 0);
@@ -24,15 +24,29 @@ animation-fill-mode: forwards;
   }
 }
 
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 250px;
+}
+
 .blue {
-    text-align: left;
-    font-size: 90px;
-    margin-left: 20%;
+  color: rgb(42, 42, 194);
+  font-size: 90px;
+  margin: 0;
+  text-align: center;
 }
 
 .red {
-    text-align: right;
-    font-size: 90px;
-    margin-left: 20%;
-    
+  color: red;
+  font-size: 90px;
+  margin: 0;
+  text-align: center;
+  
+
+
+}
+body{
+  background-color: black;
 }
