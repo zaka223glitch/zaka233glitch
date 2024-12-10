@@ -34,19 +34,10 @@ div {
 .blue {
   color: rgb(42, 42, 194);
   font-size: 90px;
-  margin: 0;
   text-align: center;
 }
-
-.red {
-  color: red;
-  font-size: 90px;
-  margin: 0;
-  text-align: center;
   
 
-
-}
 body{
   background-color: black;
 }
