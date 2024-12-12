@@ -4,20 +4,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/jpeg" href="https://media.istockphoto.com/id/1336313511/vector/vector-funny-sign-quiz-game-set-of-creative-alphabet-letters-and-numbers.jpg?s=612x612&w=0&k=20&c=V7G9_GmHnJK89C-kt1U1kGDz2uBskO1-Z5fpxph9rX8=">
-  <title>Game Quiz</title>
+  <title>Quiz Game</title>
   <link rel="stylesheet" href="edit.CSS">
 </head>
 <body>
+  <!-- Hamburger Navigation -->
+  <nav class="navbar">
+    <div class="hamburger" onclick="toggleNav()">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+    <ul class="nav-menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">Help</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
   <div class="wrapper">
-    
-    <a href="javascript:void(0);">
-
-      <button class="button1" onclick="audio.play();">Play now</button>
-  </a>
-
-
-
+    <button class="button1" onclick="playAudio()">Play now</button>
   </div>
+
   <div class="box">
     <div></div>
     <div></div>
