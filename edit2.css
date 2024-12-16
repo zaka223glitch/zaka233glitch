@@ -1,0 +1,65 @@
+.button1{ 
+  background-color: blue;
+  width: 800px;
+  height: 300px;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  bottom: 0%;
+}
+.button1:hover{
+background-color: rgba(0, 0, 255, 0.345);
+}
+
+.button1:active{
+  font-size: 25px;
+
+}
+.buttonDiv3{
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+}
+.button2{
+  background-color: rgb(255, 1, 1);
+  width: 800px;
+  height: 300px;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  bottom: 0%;
+}
+.button2:hover{
+background-color: rgba(255, 0, 0, 0.345);
+}
+
+.button2:active{
+  font-size: 25px;
+}
+body {
+  background: linear-gradient(90deg, rgb(44, 209, 212) 0%, rgb(90, 90, 255) 35%, rgb(0, 242, 255) 100%);
+  margin: 0;
+  height: 100vh; 
+}
+
+
+.img1 {
+  display: block; 
+  width: 100%;
+  height: 390px;
+  margin: auto;
+
+}
+
+h1 {
+  font-size: 310%;
+  position: absolute;
+  top: 50%; 
+  left: 49%; 
+  transform: translate(-50%, -50%); 
+  text-align: center;
+  margin: 0;
+}
