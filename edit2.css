@@ -8,7 +8,7 @@
   bottom: 0%;
 }
 .button1:hover{
-background-color: rgba(0, 0, 255, 0.345);
+background-color: rgba(213, 26, 26, 0.178);
 }
 
 .button1:active{
@@ -55,11 +55,19 @@ body {
 }
 
 h1 {
-  font-size: 310%;
-  position: absolute;
-  top: 50%; 
-  left: 49%; 
-  transform: translate(-50%, -50%); 
-  text-align: center;
-  margin: 0;
-}
+    font-size: 310%;
+    position: absolute;
+    top: 49%; 
+    left: 49%; 
+    transform: translate(-50%, -50%); 
+    text-align: center;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #000000;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  }

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Winner</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="game-over-container">
+    <h1>Winner</h1>
+    <p>Goed gedaan! Je hebt gewonnen.</p>
+    <button onclick="goToHome()">Back to Home</button>
+  </div>
+
+  <script>
+    window.onload = function() {
+      const congratsAudio = new Audio();
+      congratsAudio.src = "./winning-218995.mp3"; 
+      congratsAudio.play();
+    }
+
+    function goToHome() {
+      window.location.href = "index.html"; 
+    }
+  </script>
+</body>
+</html>
