@@ -1,5 +1,5 @@
 
-
+/* bron: https://www.youtube.com/watch?v=0R6rZngcHGg */
 .button1{
   background-color: transparent;
   width: 200px;
@@ -33,7 +33,7 @@ div {
   margin-bottom: 10px;
   text-align: center;
 }
-
+/* bron: https://www.youtube.com/watch?v=qx7pSLjLNQA&list=PLwJhhWUZudKp7QPVALB_kXUyzj8cBB__L */
 body{
 
   margin: 0;
@@ -119,6 +119,7 @@ body{
     opacity: 0;
   }
 }
+/* bron: https://www.youtube.com/watch?v=aNDqzlAKmZc */
 .navbar {
   position: fixed;
   top: 0;
